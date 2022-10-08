@@ -1,5 +1,64 @@
-html, body, main {
-    height: 100%;
+* {
+    padding: 0px;
+    margin: 0px;
+    border: none;
+}
+
+.container {
+    background-color: rgb(182, 216, 166)
+}
+
+.header-container {
+    background-color: #77bd84;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    box-shadow: 1px 1px 10px 1px #000;
+    width: 100%;
+    height: 200px
+    
+}
+
+.header-logo {
+    width: 100%;
+    text-align: center;
+}
+
+img {
+    width: 100px;
+    height: 100px;
+
+}
+
+.header-row {
+    display: flex;
+    justify-content: start;
+    flex-wrap: wrap;
+    flex-direction: column;
+    width: 1200px;
+}
+
+.header-title {
+    text-align: center;
+    margin-left: 50px;
+}
+
+
+.header-nav {
+    justify-content: center;
+    margin: 20px 20px 0 20px;
+    display: flex;
+    flex-wrap: wrap;
+    row-gap: 10px;
+}
+
+.header-nav-link {
+    color: #4D4D4D;
+    text-transform: uppercase;
+    font-weight: 600;
+    transition: 0.4s;
+    margin-right: 20px;
 }
 
 .cards {
@@ -9,6 +68,7 @@ html, body, main {
     flex-wrap: wrap;
     height: 100%;
     font-weight: 100%;
+    background-color: rgb(232, 238, 229)
     
 }
 
@@ -20,16 +80,18 @@ html, body, main {
     margin-bottom: 20px;
     box-shadow: 4px 8px 16px rgba(33, 139, 77, 0.671);
     border-radius: 4px;
-    background: #FFFFFF;
+    background: #FFFFFF;    
 
     
 }
 
-.name {
+.card__name {
     width: max-content;
     height: 35px;
     font-size: 15px;
     font-weight: 600;
+    text-align: center;
+    
     
 }
 
@@ -40,17 +102,19 @@ html, body, main {
 
 .card__image2 {
     width: 100%;
-    height: 260px;
+    height: 300px;
 }
 
 .card__image img {
     width: 100%;
     height: 100%;
+    object-fit: contain;
 }
 
 .card__image2 img {
     width: 100%;
     height: 100%;
+    object-fit: contain;
 }
 
 .card__body {
@@ -97,3 +161,24 @@ html, body, main {
    
 }
 
+.footer-body {
+    display: flex;
+    justify-content: space-around;
+}
+
+.footer-contacts {
+    font-size: 26px;
+    padding-top: 10px;
+    text-align: center;
+}
+
+.footer-nav {
+    display: flex;
+    flex-direction: column;
+    margin-left: 20px;
+}
+
+.footer-nav a {
+    color: rgb(2, 2, 2);
+    margin-bottom: 5px;
+}
