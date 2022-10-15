@@ -1,0 +1,167 @@
+body, html {
+    margin: 0;
+    height: 100%;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    min-height: 100%;
+    position: relative;
+}
+
+.header {
+    flex: 0 0 auto;
+}
+
+.header__wrapper {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    display: flex;
+    align-content: center;
+    height: 120px;
+    background-color: #6a35df;
+    padding: 20px 0 20px 50px;
+    font-size: 50px;
+}
+
+.header__img-wrapper {
+    height: 80px;
+}
+
+.header__img {
+    height: 100%;
+}
+
+.header__title {
+    font-family: Roboto, sans-serif;
+    font-weight: 400;
+    font-size: 32px;
+    color: #fff;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    margin: 0;
+    padding: 0;
+}
+
+.main {
+    flex: 1 0 auto;
+}
+
+.sidebar {
+    position: fixed;
+    top: 170px;
+    left: 0;
+    font-size: 40px;
+}
+
+.sidebar__wrapper {
+    background-color: #fff;
+}
+
+.sidebar__content {
+    font-family: Roboto, sans-serif;
+    border-right: 2px solid #C4C4C4;
+    padding: 15px 20px 300px 20px;
+}
+
+.sidebar__title {
+    font-weight: 400;
+    font-size: 28px;
+    margin-bottom: 23px;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+.sidebar__list-item {
+    font-size: 24px;
+    font-weight: 200;
+    margin-bottom: 12px;
+}
+
+.sidebar__list-link {
+    color: #FF710B;
+}
+
+.search-section {
+    position: fixed;
+    top: 110px;
+    left: 280px;
+    width: 85%;
+    padding: 10px;
+    z-index: 40;
+}
+
+.search-section__wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    box-shadow: 0 4px 3px -2px grey;
+    padding: 10px;
+    background-color: #fff;
+}
+
+.search-section__alphabet {
+    font-family: "Roboto", sans-serif;
+    text-transform: uppercase;
+    font-weight: 600;
+    font-size: 14px;
+    text-align: center;
+    margin: 10px 0 0 0;
+}
+
+.search-section__alphabet-link {
+    text-decoration: none;
+    color: #FF710B;
+    margin: 0 0 0 10px;
+}
+
+.book {
+    position: absolute;
+    top: 220px;
+    left: 340px;
+    width: 75%;
+    padding-bottom: 280px;
+    z-index: -1;
+}
+
+.book__wrapper {
+    background-color: #fff;
+}
+
+.book__element {
+    background-color: #fff;
+}
+
+.book__element-title {
+    position: sticky;
+    top: 207px;
+    font-family: "Roboto", sans-serif;
+    text-transform: uppercase;
+    background-color: rgb(75, 24, 218);
+    display: block;
+    width: 100%;
+    color: #fff;
+    padding: 6px 6px 6px 10px;
+}
+
+.book__element-list {
+    font-family: "Roboto", sans-serif;
+    font-size: 24px;
+    padding: 8px;
+}
+
+.book__element-item {
+    margin-bottom: 15px;
+}
