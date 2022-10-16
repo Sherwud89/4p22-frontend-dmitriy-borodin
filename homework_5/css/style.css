@@ -1,4 +1,5 @@
 body, html {
+
     margin: 0;
     height: 100%;
 }
@@ -142,14 +143,16 @@ ul {
 
 .book__element {
     background-color: #fff;
+    margin-top: -155px;
+    padding-top: 164px
 }
 
 .book__element-title {
     position: sticky;
-    top: 207px;
+    top: 169px;
     font-family: "Roboto", sans-serif;
     text-transform: uppercase;
-    background-color: rgb(75, 24, 218);
+    background-color: rgb(56, 153, 108);
     display: block;
     width: 100%;
     color: #fff;
@@ -164,4 +167,23 @@ ul {
 
 .book__element-item {
     margin-bottom: 15px;
+}
+
+.footer {
+    position: relative;
+    background: linear-gradient(to top,gray,azure );
+    height: 40px;
+    min-width: 340px;
+    text-align: right;
+}
+
+.footer__content {
+    position: relative;
+    font-size: 12px;
+    font-weight: 700;
+    font-family: sans-serif;
+    text-shadow: 5px 5px 5px #bae498;
+    color: rgb(5, 71, 5);
+    padding-right: 15px;
+    top: 10px;
 }
