@@ -1,0 +1,102 @@
+* {
+    box-sizing: border-box;
+}
+
+.body { 
+    margin: 0;   
+    margin: 0;       
+}
+
+.prime-header {
+    position: fixed;
+    text-align: center;    
+    background: #c166d8;
+    height: 100px;
+    width: 100%;
+    min-width: 186px;
+    z-index: 100;
+}
+
+.prime-header__caption {
+   font-family: Roboto;
+   font-size: 40px;
+   font-weight: 400;
+   margin: 0;
+   top: 20px;
+   padding-top: 20px;   
+}
+
+.prime-main__sidebar {
+    position: fixed;
+    overflow-y: auto;
+    background-color: rgb(213, 177, 216);
+    height: calc(100vh-90px);
+    width: 30%;
+    min-width: 105p;
+    top: 160px;
+}
+
+.prime-main-sidebar__book {
+   list-style-type: none;   
+}
+
+
+.prime-main-sidebar__link {
+    text-decoration: none;
+}
+
+
+
+.prime-main-sidebar__caption {
+    height: 50px;
+    font-family: Roboto;
+    top: 160px;
+    background: linear-gradient(to right, #e7aef5,rgb(246, 244, 247));
+    padding-left: calc(4% + 3px);
+    margin-top: 0;
+    
+}
+
+.prime-main-sidebar__basik {
+    text-decoration: none;
+    font-family: Roboto;
+    width: 18px;
+    margin-left: 4%;
+    padding-left: 3px;
+    top: 0;    
+}
+
+.prime-main__workzone {
+    position: absolute;
+    background-color: rgb(255, 246, 255);
+    height: calc(100vh-90px);
+    width: 70%;
+    min-width: 160px;
+    top: 150px;
+    left: 300px;
+}
+
+.prime-main-workzone__caption {
+    font-weight: 600;
+    font-family: Roboto;
+    position: sticky;
+    background: linear-gradient(to right,#c28ad3,rgb(211, 159, 201));
+    padding-left: 10px;
+    top: 100px;
+    height: 18px;   
+}
+
+.prime-main-workzone__bazik-list {
+    margin-top: 0;
+    font-family: Roboto;
+    margin-bottom: 0px;
+    padding-left: 30px;
+}
+
+.prime-main-workzone__bazik-item {
+    text-decoration: none;
+    font-family: Roboto;
+    padding-left: 10px;
+    top: 0;
+    height: 18px;    
+}
