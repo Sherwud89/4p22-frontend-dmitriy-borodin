@@ -1,0 +1,23 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+}
+
+.box {
+    width: 200px;
+    height: 200px;
+    background: greenyellow;
+}
+
+@media screen and (min-width: 720px) and (max-width: 1024px) {
+    .box {
+        width: 100px;
+        height: 100px;
+        background: blueviolet;
+    }
+}
+
+@madia screen and (min-width:) and (max-width:)
